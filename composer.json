@@ -1,0 +1,21 @@
+{
+    "name": "devbipu/php-performance-counter",
+    "description": "Simple package for php app permormance test. Demo project of composer, php package development",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Devbipu\\PhpPerformanceCounter\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Biplob Shaha",
+            "email": "devbipu@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require-dev": {
+        "phpunit/phpunit": "^11.5"
+    }
+}
